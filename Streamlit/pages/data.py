@@ -67,7 +67,8 @@ st.markdown("</div>", unsafe_allow_html=True)
 def load_data():
     BASE_DIR = Path(__file__).resolve().parent.parent.parent
     file_path = BASE_DIR / "hasil_anotasi_lengkap.xlsx"
-    file_path = "../dataset/Kelp2_hasil_anotasi.xlsx"
+    
+    file_path = BASE_DIR / "Dataset/Kelp2_hasil_anotasi.xlsx"
     df = pd.read_excel(file_path, sheet_name="Gabungan")
 
     cols_needed = [
