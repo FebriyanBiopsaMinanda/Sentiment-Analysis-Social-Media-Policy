@@ -1,6 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
+from pathlib import Path
 
 st.set_page_config(
     page_title="Social Media Restrictions for Minors",
@@ -64,6 +65,8 @@ st.markdown("</div>", unsafe_allow_html=True)
 # =========================
 @st.cache_data
 def load_data():
+    BASE_DIR = Path(__file__).resolve().parent.parent.parent
+    file_path = BASE_DIR / "hasil_anotasi_lengkap.xlsx"
     file_path = "../dataset/Kelp2_hasil_anotasi.xlsx"
     df = pd.read_excel(file_path, sheet_name="Gabungan")
 
