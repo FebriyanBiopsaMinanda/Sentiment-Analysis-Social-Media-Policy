@@ -1,0 +1,24 @@
+{
+  "labels": [
+    "PENOLAKAN_KEBIJAKAN",
+    "DUKUNGAN_KEBIJAKAN",
+    "KRITIK_PEMERINTAHAN",
+    "NETRAL"
+  ],
+  "label2id": {
+    "PENOLAKAN_KEBIJAKAN": 0,
+    "DUKUNGAN_KEBIJAKAN": 1,
+    "KRITIK_PEMERINTAHAN": 2,
+    "NETRAL": 3
+  },
+  "id2label": {
+    "0": "PENOLAKAN_KEBIJAKAN",
+    "1": "DUKUNGAN_KEBIJAKAN",
+    "2": "KRITIK_PEMERINTAHAN",
+    "3": "NETRAL"
+  },
+  "indobert_threshold": 0.35,
+  "nusabert_threshold": 0.35,
+  "max_length": 128,
+  "best_model": "IndoBERT"
+}

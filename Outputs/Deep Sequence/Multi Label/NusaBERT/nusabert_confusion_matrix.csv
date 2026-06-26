@@ -1,0 +1,5 @@
+model,label,true_negative,false_positive,false_negative,true_positive
+NusaBERT,PENOLAKAN_KEBIJAKAN,60,21,22,41
+NusaBERT,DUKUNGAN_KEBIJAKAN,107,4,31,2
+NusaBERT,KRITIK_PEMERINTAHAN,101,4,14,25
+NusaBERT,NETRAL,53,27,29,35
