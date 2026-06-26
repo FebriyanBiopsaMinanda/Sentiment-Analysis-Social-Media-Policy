@@ -173,9 +173,9 @@ elif selected == "Visualisasi":
 
     BASE_DIR = Path(__file__).resolve().parent.parent.parent
     
-    file_path = BASE_DIR / "Dataset/Kelp2_hasil_anotasi.xlsx"
-    iaaa_path = BASE_DIR / "Dataset/Kelp2_iaaa.jsonl"
-    iaaa_text_path = BASE_DIR / "Dataset/Kelp2_iaaa_textcat.jsonl"
+    file_path = BASE_DIR / "Dataset/hasil_anotasi.xlsx"
+    iaaa_path = BASE_DIR / "Dataset/iaaa.jsonl"
+    iaaa_text_path = BASE_DIR / "Dataset/iaaa_textcat.jsonl"
     
     df_hasil_anotasi = pd.read_excel(file_path, sheet_name="Gabungan")
     
